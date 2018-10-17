@@ -11,6 +11,7 @@
 <body>
   <div class="container">
     <h1>Calculator</h1>
+
     <div class="panel">
       <form id="add">
         <div class="form-group">
@@ -24,6 +25,7 @@
         <button type="submit" class="btn">Add</button>
       </form>
     </div>
+
     <div class="panel">
       <form id="multiply">
         <div class="form-group">
@@ -37,7 +39,36 @@
         <button type="submit" class="btn">Multiply</button>
       </form>
     </div>
+
     <div class="panel">
+      <form id="subtract">
+        <div class="form-group">
+          <label for="subtract1">1st number:</label>
+          <input  id="subtract1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="subtract2">2nd number:</label>
+          <input  id="subtract2" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Subtract</button>
+      </form>
+    </div>
+
+    <div class="panel">
+      <form id="divide">
+        <div class="form-group">
+          <label for="divide1">1st number:</label>
+          <input  id="divide1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="divide2">2nd number:</label>
+          <input  id="divide2" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Divide</button>
+      </form>
+    </div>
+
+    <div class="output">
       <label>Output:</label>
       <p id="output"></p>
     </div>
